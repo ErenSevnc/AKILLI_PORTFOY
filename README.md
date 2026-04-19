@@ -43,8 +43,3 @@ AkilliPortfoy/
     └── pages/                  # Home, Portfolio, Analysis, News, Auth
 ```
 
-## 🗺️ Geliştirme Yol Haritası
-
-Bu proje şu anda aktif geliştirme (Prototype) aşamasındadır. Gelecekte planlanan geliştirmeler:
-
-* **Kısa Vade:** API URL ve gizli anahtarların `.env` dosyasına taşınması, React error boundary eklemeleri ve eksik Optimizasyon/Rehber sayfalarının
