@@ -1,0 +1,18 @@
+# Ortam Değişkenleri (Şifrelerin ve Key'lerin tutulduğu dosyalar)
+.env
+.env.*
+
+# Python bağımlılıkları ve önbellek
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Node bağımlılıkları ve derleme dosyaları (Frontend için)
+node_modules/
+dist/
+build/
+
+# İşletim sistemi kalıntıları
+.DS_Store

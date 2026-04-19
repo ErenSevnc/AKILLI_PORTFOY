@@ -1,0 +1,13 @@
+python -m venv venv
+.\venv\Scripts\activate
+pip install fastapi uvicorn yfinance pandas pandas-ta sqlalchemy psycopg2 requests python-dotenv
+docker run --name benim-veritabanim -e POSTGRES_USER=kullanici_adiniz -e POSTGRES_PASSWORD=gizli_sifreniz -e POSTGRES_DB=websitem -e POSTGRES_INITDB_ARGS="--locale=en_US.utf8" -p 5432:5432 -d postgres
+uvicorn main:app --reload
+
+npm run dev
+
+python3 -m venv venv
+source venv/bin/activate
+pip install fastapi uvicorn yfinance pandas pandas-ta sqlalchemy psycopg2-binary requests python-dotenv
+docker run --name benim-veritabanim -e POSTGRES_USER=kullanici_adiniz -e POSTGRES_PASSWORD=gizli_sifreniz -e POSTGRES_DB=websitem -e POSTGRES_INITDB_ARGS="--locale=en_US.utf8" -p 5432:5432 -d postgres
+uvicorn main:app --reload
