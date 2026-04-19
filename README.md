@@ -4,28 +4,28 @@ Akıllı Portföy, BIST hisseleri, kripto paralar, döviz ve emtiaları gerçek 
 
 ## 🚀 Özellikler
 
-*Canlı Takip & Haberler:** BIST, Kripto, Döviz ve Emtia için piyasa özeti ve kategoriye göre filtrelenmiş canlı haber akışı
-*Portföy Yönetimi:** Kapsamlı CRUD işlemleri, Pie chart ile portföy dağılımı, anlık Kâr/Zarar hesabı ve yüzde değişim takibi
-*Teknik Analiz:** Recharts ile oluşturulmuş interaktif grafikler üzerinde RSI ve Hareketli Ortalama (MA) indikatörleri
-*Optimizasyon & Backtest:** Özelleştirilebilir dönemlere sahip backtest sistemi ve tüm periyotlar için optimizasyon doğrulaması yapan RSI/MA motoru
-*Geniş Veri Desteği:** 132'den fazla desteklenen sembol, gelişmiş sembol arama (autocomplete) ve TRY, USD, EUR arasında anında para birimi dönüşümü
-*Güvenli Kimlik Doğrulama:** PBKDF2-HMAC şifreleme ve Custom JWT kullanılarak oluşturulmuş güvenli giriş/kayıt sistemi
+**Canlı Takip & Haberler:** BIST, Kripto, Döviz ve Emtia için piyasa özeti ve kategoriye göre filtrelenmiş canlı haber akışı
+**Portföy Yönetimi:** Kapsamlı CRUD işlemleri, Pie chart ile portföy dağılımı, anlık Kâr/Zarar hesabı ve yüzde değişim takibi
+**Teknik Analiz:** Recharts ile oluşturulmuş interaktif grafikler üzerinde RSI ve Hareketli Ortalama (MA) indikatörleri
+**Optimizasyon & Backtest:** Özelleştirilebilir dönemlere sahip backtest sistemi ve tüm periyotlar için optimizasyon doğrulaması yapan RSI/MA motoru
+**Geniş Veri Desteği:** 132'den fazla desteklenen sembol, gelişmiş sembol arama (autocomplete) ve TRY, USD, EUR arasında anında para birimi dönüşümü
+**Güvenli Kimlik Doğrulama:** PBKDF2-HMAC şifreleme ve Custom JWT kullanılarak oluşturulmuş güvenli giriş/kayıt sistemi
 
 ## 🛠️ Teknoloji Yığını
 
 ### Frontend (Kullanıcı Arayüzü)
-*Framework:** React 19.2.0 
-*Build Tool:** Vite 7.2.4 
-*Routing:** React Router 7.9.6 
-**HTTP İstemcisi:** Axios 1.13.2 
-*Veri Görselleştirme:** Recharts 3.5.0 
-*İkonlar:** Lucide React 0.555.0 
+**Framework:** React 19.2.0 
+**Build Tool:** Vite 7.2.4 
+**Routing:** React Router 7.9.6 
+***HTTP İstemcisi:** Axios 1.13.2 
+**Veri Görselleştirme:** Recharts 3.5.0 
+**İkonlar:** Lucide React 0.555.0 
 
 ### Backend (Sunucu & API)
-*Framework:** FastAPI (REST API) & Uvicorn (ASGI)
-*Finansal Veri Sağlayıcı:** yfinance (Yahoo Finance entegrasyonu) 
-*Veri İşleme:** pandas 
-*Veritabanı:** SQLite
+**Framework:** FastAPI (REST API) & Uvicorn (ASGI)
+**Finansal Veri Sağlayıcı:** yfinance (Yahoo Finance entegrasyonu) 
+**Veri İşleme:** pandas 
+**Veritabanı:** SQLite
 
 ## 📂 Proje Mimarisi
 
